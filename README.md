@@ -56,7 +56,8 @@ njit iNode 802.1x client for Linux
 
 2. 注意：
     * 网卡名为连接校园网的网卡名称，一般是名称为 `eno1` 的有线网卡，具体请使用 `ifconfig` 查找（Arch Linux使用 `ifconfig` 需要安装 `net-tools` ）
-    * 7.0版本对应version和key分别是 `CH\\u0011V7.00-0106` 和 `Oly5D62FaE94W7` (有两个\的原因它在shell下需要转义)
+    * 7.0版本对应的version和key分别是 `CH\\u0011V7.00-0106` 和 `Oly5D62FaE94W7` (有两个\的原因它在shell下需要转义)
+    * 7.1版本对应的version是 `CH\\x11V7.00-0313` ，key同上
     * 可以给运行命令设置别名，如将 `alias inode7.0='sudo njit-client username password eno1 CH\u0011V7.00-0106 Oly5D62FaE94W7'` 添加到 `～/.bashrc`，然后在终端输入 `inode7.0` 即可
 
 3. 程序会输出一些调试信息，其中大部分信息不用理会
