@@ -20,7 +20,7 @@ njit iNode 802.1x client for Linux
 
 [https://github.com/liuqun/njit8021xclient](https://github.com/liuqun/njit8021xclient)
 
-（感谢以上英雄，尤其是@tignioj，提供了inode7.0的version和key的信息
+（感谢以上英雄；其中，[@tignioj](https://github.com/tignioj)，提供了inode7.0的version和key的信息
 
 ## 安装
 
